@@ -39,4 +39,25 @@ public final class Constants {
     public static final int kPIDLoopIdx = 0;
     public static final int kTimeoutMs = 0;
 
+    //TODO: Populate these values
+    public static final int kSwerve1SteerCAN = 0;
+    public static final int kSwerve1DriveCAN = 0;
+    public static final int kSwerve1EncoderCAN = 0;
+    public static final double kSwerve1SteerOffset = 0;
+
+    public static final int kSwerve2SteerCAN = 0;
+    public static final int kSwerve2DriveCAN = 0;
+    public static final int kSwerve2EncoderCAN = 0;
+    public static final double kSwerve2SteerOffset = 0;
+
+    public static final int kSwerve3SteerCAN = 0;
+    public static final int kSwerve3DriveCAN = 0;
+    public static final int kSwerve3EncoderCAN = 0;
+    public static final double kSwerve3SteerOffset = 0;
+
+    public static final int kSwerve4SteerCAN = 0;
+    public static final int kSwerve4DriveCAN = 0;
+    public static final int kSwerve4EncoderCAN = 0;
+    public static final double kSwerve4SteerOffset = 0;
+
 }
