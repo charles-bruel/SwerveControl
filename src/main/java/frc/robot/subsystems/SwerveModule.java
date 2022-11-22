@@ -86,4 +86,11 @@ public class SwerveModule {
         time = new_time;
         return result;
     }
+
+    public void update(double target_velocity, double target_steer) {
+        double target_steer_velocity = calculate_steer_velocity(target_steer);
+
+        steer.set(Velocity, target_steer_velocity);
+        drive.set(Velocity, target_velocity);
+    }
 }
