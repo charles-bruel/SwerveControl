@@ -39,6 +39,14 @@ public final class Constants {
     public static final int kPIDLoopIdx = 0;
     public static final int kTimeoutMs = 0;
 
+    public static final int kLeftStickX = 0;
+    public static final int kLeftStickY = 1;
+    public static final int kRightStickX = 4;
+    public static final int kRightStickY = 5;
+
+    public static final double kRad2Deg = 180 / Math.PI;
+    public static final double kDeg2Rad = 1 / kRad2Deg;
+
     //TODO: Populate these values
     public static final int kSwerve1SteerCAN = 0;
     public static final int kSwerve1DriveCAN = 0;
